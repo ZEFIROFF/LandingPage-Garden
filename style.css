@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(214, 214, 214);
+  background-image: url('img/green-leaves-1072179.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header_ul {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.header_ul a {
+  color: white;
+}
+
+.header_ul .fas {
+  flex-basis: 50%;
+}
+
+.header_ul_li {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+  align-items: center;
+}
+.header_ul_li a{
+  color: white;
+  transition: ease .3s all;
+}
+.header_ul_li a:hover{
+  color: #00cca0;
+}
+.fa-cookie {
+  font-size: 35px;
+  color: #674C47;
+}
+
+.header_ul svg {
+  width: 40px;
+  display: block;
+}
+
+.header_txt {
+  margin: 150px;
+  margin-bottom: 0;
+  max-width: 500px;
+  color: white;
+  margin-left: auto;
+  padding-bottom: 200px;
+}
+
+.header_txt p {
+  margin: 10px 0;
+}
+
+.header_txt>* {
+  display: inline-block;
+}
+
+#active {
+  color: #00cca0;
+}
+
+#btn_contact {
+  background-color: #00cca0;
+  padding: 15px;
+  color: white;
+  margin: 10px 0;
+}
+
+.about_txt{
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+  margin: 50px auto;
+  font-size: 20px;
+}
+.about_txt p{
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.main_ProfSkill{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+.skills{
+  display: block;
+  margin: 0 auto;
+  /* align-items: center; */
+  align-self: center;
+}
+.img_skill{
+  position: relative;
+  width: 50%;
+}
+.img_skill img{
+  width: 100%;
+  height: 100%;
+}
+.PS_stroka{
+  margin: 10px 0;
+}
+.stroka{
+  position: relative;
+  width: 500px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 5px;
+  height: 10px;
+}
+.green_stroka{
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(48, 226, 208);
+  border-radius: 5px;
+}
+.main_stats{
+  background-color: turquoise;
+  padding: 80px;
+}
+.stats_icon{
+  display: flex;
+  justify-content: space-around;
+  color: rgb(245, 245, 245);
+  font-size: 30px;
+}
+.stats_icon i{
+  font-size: 60px;
+}
+.icon_block{
+  display: flex;
+  flex-direction: row;
+}
+.icon_block_txt{
+  font-size: 23px;
+  margin: 0 12px;
+}
+.block_img{
+  width: 372.4px;
+  height: 550px;
+}
+.block_img img{
+  width: 100%;
+  height: 100%;
+}
+.imgs{
+  display: flex;
+  flex-wrap: wrap;
+}
+#btn_load{
+  width: 100%;
+  padding: 25px;
+  background-color: whitesmoke;
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+  border: none;
+  transition: .5s ease all;
+}
+#btn_load:hover{
+  background-color: #10c09a;
+}
+.main_our-work{
+  margin: 100px; 
+}
+.our-work_txt{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.main_our-work video{
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  margin: 50px 0;
+}
+.achievements{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  padding: 100px 0;
+}
+.ach{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.ach i{
+  font-size: 60px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+}
+.ach_block_txt{
+  font-size: 20px;
+  margin: 25px;
+  text-align: center;
+  max-width: 350px;
+}
+.slider{
+  background-color: rgb(39, 207, 193);
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 300px 200px;
+}
+.slider h6{
+  margin-top: 30px;
+}
+.imgs_parhners img{
+  width: 100%;
+  margin: 60px 0;
+}
+.main_form{
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 50px;
+}
+.main_form h2{
+  padding-top: 40px;
+}
+.main_form p{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  padding: 25px;
+}
+.inputs_form  input{
+  padding: 15px 20px;
+  padding-right: 70px;
+  border: 0;
+  display: flex;
+  margin: 10px auto;
+}
+.inputs_form input[type=submit]{
+  background-color: turquoise;
+  padding: 15px 75px;
+  color: white;
+  cursor: pointer;
+  transition: ease .5s all;
+}
+.inputs_form input[type=submit]:hover{
+  background-color: rgb(64, 224, 163);
+}
+footer{
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.foot{
+  margin-top: 80px;
+}
+.left_foot p{
+  margin: 30px 0;
+}
+.main_foot > p{
+  margin: 0 auto;
+}
+.right_foot{
+  display: flex;
+  justify-content: space-between;
+}
+.right_foot ul{
+  margin-right: 30px;
+}
